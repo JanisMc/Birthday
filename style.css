@@ -3,7 +3,7 @@
 
 body {
     width: 100%;
-    background-image: url(../img/stars.jpg);
+    background-image: url(./img/stars.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
     display: flex;
