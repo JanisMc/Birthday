@@ -101,3 +101,15 @@ button {
     flex-direction: column;
     align-items: center;
 }
+
+#f {
+    font-size: x-large;
+    width: 100%;
+    background-image: url(./img/aurora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15.62rem;
+}

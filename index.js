@@ -10,6 +10,7 @@ const b = document.getElementById("b")
 const c = document.getElementById("c")
 const d = document.getElementById("d")
 const e = document.getElementById("e")
+const f = document.getElementById("f")
 
 main.style.display = "none"
 sixth.style.display = "none"
@@ -18,6 +19,7 @@ b.style.display = "none"
 c.style.display = "none"
 d.style.display = "none"
 e.style.display = "none"
+f.style.display = "none"
 
 first.addEventListener("click", () => {
     main.style.display = "inline-flex"
@@ -43,4 +45,5 @@ fifth.addEventListener("click", () => {
 
 sixth.addEventListener("click", () => {
     main.style.display = "none"
+    f.style.display = "inline-flex"
 })
